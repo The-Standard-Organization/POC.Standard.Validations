@@ -1,0 +1,6 @@
+@HostAddress = https://localhost:7029
+
+GET {{HostAddress}}/api/home/
+Accept: application/json
+
+###
