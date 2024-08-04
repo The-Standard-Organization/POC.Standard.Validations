@@ -23,7 +23,7 @@ namespace Validations
         {
             Condition = first != second,
             Message = $"Text is not the same as {secondName}",
-            Values = new object[] { first }
+            Values = new object[] { first, second, secondName }
         };
 
         /// <summary>
